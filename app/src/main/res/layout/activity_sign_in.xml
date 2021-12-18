@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:id="@+id/main_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:contentDescription="@string/app_name"
+            android:id="@+id/app_name"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/logo"/>
+        <TextView
+            android:id="@id/app_name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/main_blue"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/name"
+                android:autofillHints="name"
+                android:layout_width="326dp"
+                android:layout_height="55dp"
+                android:background="@drawable/stroke"
+                android:hint="@string/name"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/logo" />
+            <EditText
+                android:id="@+id/name3"
+                android:autofillHints="emailAddress"
+                android:layout_width="326dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/stroke"
+                android:hint="@string/email"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black" />
+            <EditText
+                android:id="@+id/name31"
+                android:autofillHints="password"
+                android:layout_width="326dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/stroke"
+                android:hint="@string/password"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/name2"
+                android:autofillHints="phone"
+                android:layout_width="326dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/stroke"
+                android:hint="@string/number"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sing_in"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:text="@string/sing_in"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape"/>
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Insta_salon</string>
+    <string name="password">Пароль</string>
+    <string name="number">Номер телефона</string>
+    <string name="passwordcheck">Подтверждение пароля</string>
+    <string name="name">Имя пользователя</string>
+    <string name="sing_in">зарегистрироваться</string>
+    <string name="email">Почта</string>
+    <string name="log_in">Войти</string>
+    <string name="profile">Профиль</string>
+    <string name="meet">Запись</string>
+    <string name="my_meet">Мои записи</string>
+    <string name="edit">редактировать</string>
+    <string name="name_of">Имя</string>
+    <string name="firstname">Фамилия</string>
+    <string name="save">сохранить</string>
+
 </resources>

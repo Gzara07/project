@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Insta_salon">
         <activity
+            android:name=".MyMeetings"
+            android:exported="false" />
+        <activity
+            android:name=".AccountEdit"
+            android:exported="false" />
+        <activity
+            android:name=".Account"
+            android:exported="false" />
+        <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
