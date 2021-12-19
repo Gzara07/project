@@ -24,5 +24,8 @@
     <string name="adress_master">Восток-5</string>
     <string name="history_of_eet">История записей</string>
     <string name="choose">Выберите филиал</string>
+    <string name="work_day">рабочий день, есть окошки</string>
+    <string name="no_places">нет свободных мест</string>
+    <string name="time_15">15:40</string>
 
 </resources>
