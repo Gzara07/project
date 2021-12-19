@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/back.xml" value="0.3828125" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/delete.xml" value="0.3828125" />
+        <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/master.xml" value="0.3828125" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/meet.xml" value="0.3828125" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/next.xml" value="0.3828125" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/shape.xml" value="0.3828125" />
@@ -16,11 +17,13 @@
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/shape_white.xml" value="0.3828125" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/shape_yellow.xml" value="0.3828125" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/stroke.xml" value="0.3828125" />
+        <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/drawable/usluga.xml" value="0.3828125" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/activity_account.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/activity_account_edit.xml" value="0.3482789855072464" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/activity_log_in.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/activity_meet.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/activity_meet2.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/activity_my_meetings.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/activity_sign_in.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/STRIX in Notnik_kg/AndroidStudioProjects/Insta_salon/app/src/main/res/layout/list_fillial.xml" value="0.36666666666666664" />
