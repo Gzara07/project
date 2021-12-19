@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Insta_salon">
         <activity
+            android:name=".Uslugi"
+            android:exported="false" />
+        <activity
             android:name=".Time"
             android:exported="false" />
         <activity
