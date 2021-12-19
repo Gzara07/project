@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Insta_salon">
         <activity
+            android:name=".Meet"
+            android:exported="false" />
+        <activity
             android:name=".MyMeetings"
             android:exported="false" />
         <activity

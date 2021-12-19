@@ -14,5 +14,15 @@
     <string name="name_of">Имя</string>
     <string name="firstname">Фамилия</string>
     <string name="save">сохранить</string>
+    <string name="data">20.12.2021г</string>
+    <string name="active">Активные</string>
+    <string name="master">Мастер:</string>
+    <string name="time">Время:</string>
+    <string name="adress">Адрес:</string>
+    <string name="name_master">Алия</string>
+    <string name="time_master">16:40</string>
+    <string name="adress_master">Восток-5</string>
+    <string name="history_of_eet">История записей</string>
+    <string name="choose">Выберите филиал</string>
 
 </resources>
