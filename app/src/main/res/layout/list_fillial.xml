@@ -37,7 +37,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Восток-5"
+                    android:text="@string/vostok_5"
                     android:textSize="18sp"
                     android:textColor="@color/main_blue"
                     android:textStyle="bold"
@@ -65,7 +65,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ближайшая запись"
+                    android:text="@string/meet_soon"
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:layout_marginEnd="110dp"/>
@@ -73,7 +73,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="07,12,2021"
+                    android:text="@string/_07_12_2021"
                     android:textSize="14sp"
                     android:textColor="@color/black"/>
 
@@ -103,7 +103,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Боконбаева/Исанова"
+                    android:text="@string/adress2"
                     android:textSize="18sp"
                     android:textColor="@color/main_blue"
                     android:textStyle="bold"
@@ -131,7 +131,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ближайшая запись"
+                    android:text="@string/meet_soon"
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:layout_marginEnd="110dp"/>
@@ -139,7 +139,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="07,12,2021"
+                    android:text="@string/_07_12_2021"
                     android:textSize="14sp"
                     android:textColor="@color/black"/>
 
@@ -169,7 +169,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="7-мкр"
+                    android:text="@string/adress3"
                     android:textSize="18sp"
                     android:textColor="@color/main_blue"
                     android:textStyle="bold"
@@ -205,7 +205,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="07,12,2021"
+                    android:text="@string/_07_12_2021"
                     android:textSize="14sp"
                     android:textColor="@color/black"/>
 
@@ -235,7 +235,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Совестская/Боконбаева"
+                    android:text="@string/adress4"
                     android:textSize="18sp"
                     android:textColor="@color/main_blue"
                     android:textStyle="bold"
@@ -263,7 +263,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ближайшая запись"
+                    android:text="@string/meet_soon"
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:layout_marginEnd="110dp"/>
@@ -271,7 +271,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="07,12,2021"
+                    android:text="@string/_07_12_2021"
                     android:textSize="14sp"
                     android:textColor="@color/black"/>
 
@@ -301,7 +301,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="пр. Чуй 186"
+                    android:text="@string/adress5"
                     android:textSize="18sp"
                     android:textColor="@color/main_blue"
                     android:textStyle="bold"
@@ -329,7 +329,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ближайшая запись"
+                    android:text="@string/meet_soon"
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:layout_marginEnd="110dp"/>
@@ -337,7 +337,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="07,12,2021"
+                    android:text="@string/_07_12_2021"
                     android:textSize="14sp"
                     android:textColor="@color/black"/>
 
@@ -367,7 +367,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ахунбаева 141"
+                    android:text="@string/adress6"
                     android:textSize="18sp"
                     android:textColor="@color/main_blue"
                     android:textStyle="bold"
@@ -395,7 +395,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ближайшая запись"
+                    android:text="@string/meet_soon"
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:layout_marginEnd="110dp"/>
@@ -403,7 +403,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="07,12,2021"
+                    android:text="@string/_07_12_2021"
                     android:textSize="14sp"
                     android:textColor="@color/black"/>
 
@@ -433,7 +433,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Аламедин-1"
+                    android:text="@string/adress7"
                     android:textSize="18sp"
                     android:textColor="@color/main_blue"
                     android:textStyle="bold"
@@ -461,7 +461,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ближайшая запись"
+                    android:text="@string/meet_soon"
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:layout_marginEnd="110dp"/>
@@ -469,7 +469,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="07,12,2021"
+                    android:text="@string/_07_12_2021"
                     android:textSize="14sp"
                     android:textColor="@color/black"/>
 
