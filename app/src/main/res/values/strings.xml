@@ -27,5 +27,7 @@
     <string name="work_day">рабочий день, есть окошки</string>
     <string name="no_places">нет свободных мест</string>
     <string name="time_15">15:40</string>
+    <string name="choose_maste">Выбор мастера</string>
+    <string name="meet_soon">Ближайшая запись</string>
 
 </resources>

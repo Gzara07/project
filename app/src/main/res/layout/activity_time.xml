@@ -801,11 +801,6 @@
 
     </TableLayout>
 
-    
-    
-
-    
-
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/menu"

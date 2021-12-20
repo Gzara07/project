@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/master"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/main_blue"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toStartOf="@id/Linear_info"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/Linear_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            app:layout_constraintStart_toEndOf="@id/profile_image"
+            app:layout_constraintTop_toTopOf="@id/profile_image"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Айнура"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/stars" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meet_soon"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/master2"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/master"
+        android:orientation="horizontal"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/main_blue"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toStartOf="@id/Linear_info2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/Linear_info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            app:layout_constraintStart_toEndOf="@id/profile_image2"
+            app:layout_constraintTop_toTopOf="@id/profile_image2"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Айнура"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/stars" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meet_soon"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/master2"
+        android:id="@+id/master3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_white"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/main_blue"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toStartOf="@id/Linear_info3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/Linear_info3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            app:layout_constraintStart_toEndOf="@id/profile_image3"
+            app:layout_constraintTop_toTopOf="@id/profile_image3"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Айнура"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/stars" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meet_soon"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/master4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/master3"
+        android:orientation="horizontal"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/main_blue"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toStartOf="@id/Linear_info4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/Linear_info4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            app:layout_constraintStart_toEndOf="@id/profile_image4"
+            app:layout_constraintTop_toTopOf="@id/profile_image4"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Айнура"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/stars" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meet_soon"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/master5"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/master4"
+        android:orientation="horizontal"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/main_blue"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toStartOf="@id/Linear_info5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/Linear_info5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            app:layout_constraintStart_toEndOf="@id/profile_image5"
+            app:layout_constraintTop_toTopOf="@id/profile_image5"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image5">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Айнура"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/stars" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meet_soon"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/master6"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/shape_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/master5"
+        android:orientation="horizontal"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/main_blue"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toStartOf="@id/Linear_info6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <LinearLayout
+            android:id="@+id/Linear_info6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            app:layout_constraintStart_toEndOf="@id/profile_image6"
+            app:layout_constraintTop_toTopOf="@id/profile_image6"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image6">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Айнура"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/stars" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meet_soon"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:textColor="@color/black"/>
+
+            <LinearLayout
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="55dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/white_shape"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:text="@string/time_15"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@drawable/stroke_time"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
